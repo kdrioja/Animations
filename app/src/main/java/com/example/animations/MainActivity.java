@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         ImageView bartImageView = findViewById(R.id.bartImageView);
         ImageView homerImageView = findViewById(R.id.homerImageView);
 
+        bartImageView.animate().rotation(180).setDuration(1000);
+        /*
         if (bartIsShowing) {
             //fading out
             bartImageView.animate().alpha(0).setDuration(2000);
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
             bartIsShowing = true;
         }
+        */
     }
 
     @Override
